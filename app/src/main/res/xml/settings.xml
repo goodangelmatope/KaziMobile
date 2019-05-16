@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <PreferenceCategory android:title="@string/settings_server_category" >
+        <EditTextPreference
+                android:title="@string/settings_serverHostText"
+                android:summary="@string/settings_serverHostSummary"
+                android:key="serverHost"/>
+        <EditTextPreference
+                android:title="@string/settings_serverPortText"
+                android:summary="@string/settings_serverPortSummary"
+                android:key="serverPort"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="cachePassword"
+            android:summary="@string/settings_cachePasswordSummary"
+            android:title="@string/settings_cachePasswordText" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="demoMode"
+            android:summary="@string/settings_demoModeSummary"
+            android:title="@string/settings_demoModeText" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

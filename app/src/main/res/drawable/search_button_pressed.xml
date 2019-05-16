@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+            <gradient
+                android:angle="90"
+                android:endColor="#7681ea"
+                android:startColor="#5058a4" />
+
+            <corners
+                android:radius="4dp"></corners>
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/searchbuttonimage"
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp"/>
+</layer-list>

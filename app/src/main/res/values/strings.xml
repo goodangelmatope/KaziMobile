@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">KaziMobile</string>
+
+    <string name="app_title_text">Workforce Management</string>
+
+    <string name="loginFailedText">Error logging in. Please check credentials</string>
+    <string name="login_processing_text">Processing...</string>
+    <string name="login_header_text">Sign In</string>
+
+    <string name="main_activity_title">Incident List</string>
+    <string name="list_item_image_caption">Incident Logo</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_set_url">Set Live URL</string>
+
+    <string name="settings_formTitle">Settings</string>
+    <string name="settings_server_category">Settings</string>
+    <string name="settings_serverHostText">Host Address</string>
+    <string name="settings_serverHostSummary">URL / IP Address of Server</string>
+    <string name="settings_serverPortText">Host Port</string>
+    <string name="settings_serverPortSummary">Port Number on Server</string>
+    <string name="settings_cachePasswordText">Cache Password</string>
+    <string name="settings_cachePasswordSummary">Whether to save Password or not</string>
+    <string name="settings_demoModeText">Demo Mode</string>
+    <string name="settings_demoModeSummary">Activate Demo Mode (Dev Version Only)</string>
+
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!--  ListRow Left side Thumbnail image -->
+    <LinearLayout android:id="@+id/readingThumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip">
+
+        <ImageView
+            android:id="@+id/readingimage"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:contentDescription="@string/list_item_image_caption"
+            android:src="@drawable/new_mail" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvCustomerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/readingThumbnail"
+        android:layout_toRightOf="@+id/readingThumbnail"
+        android:text="Zamswitch Zambia Limited"
+        android:textColor="#040404"
+        android:fontFamily="@font/roboto_light"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvSiteName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCustomerName"
+        android:text="Long Acres Branch"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/readingThumbnail"  />
+
+    <TextView
+        android:id="@+id/tvInstallationType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSiteName"
+        android:text="ATM"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/readingThumbnail"  />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvInstallationType"
+        android:text="Dead ATM"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/readingThumbnail"  />
+
+    <TextView
+        android:id="@+id/tvIncidentType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDescription"
+        android:text="DISPENSER JAMMING"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/readingThumbnail"  />
+
+    <ImageView
+        android:id="@+id/imgRecordStatus"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/unsubmitted"/>
+
+</RelativeLayout>
